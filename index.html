@@ -1,4 +1,135 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudata.ai</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .header {
+            background: url('https://tse2.mm.bing.net/th?id=OIP.CxoSmjsSlufJ6Lac8o2TjAHaE8&pid=Api') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header h1 {
+            font-size: 3.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section h2 {
+            margin-bottom: 40px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cloudata.ai</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Welcome to Cloudata.ai</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p>Cloudata.ai is dedicated to transforming industries across the Middle East, Africa, and Turkey through advanced AI platforms and strategic collaborations. Founded by a seasoned expert in AI ecosystems and cloud solutions, we specialize in integrating state-of-the-art frameworks such as NeMo, Riva for speech AI, DeepStream for vision AI, and the comprehensive suite of NVIDIA SDKs to empower businesses and developers alike.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Expertise</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.7ONGS79UydCwaiL5h6XrmwHaEc&pid=Api" alt="AI Frameworks" class="img-fluid mb-3">
+                    <h4>AI Frameworks</h4>
+                    <p>Implementing NVIDIA's NeMo for natural language processing and Riva for speech applications.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.ThwYkpdCYkIIEJXBoJXQoQHaHa&pid=Api" alt="Vision AI" class="img-fluid mb-3">
+                    <h4>Vision AI</h4>
+                    <p>Utilizing DeepStream SDK for real-time video analytics and intelligent video applications.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.TKziVGMgadot4JUwINii7gHaE8&pid=Api" alt="Developer Support" class="img-fluid mb-3">
+                    <h4>Developer Support</h4>
+                    <p>Providing resources and guidance to foster a thriving technical community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="_replyto" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cloudata.ai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
